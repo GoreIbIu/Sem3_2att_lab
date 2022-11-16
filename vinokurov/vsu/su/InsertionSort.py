@@ -6,7 +6,7 @@ sample1 = [0, -1, 5, -2, 3]
 sample = [int(i) for i in text.split()]
 count = 0
 
-for j in range(1,len(sample)):
+for j in range(2,len(sample)):
     key = sample[j]
     i = j-1
     count+=1
