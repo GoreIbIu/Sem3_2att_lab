@@ -68,9 +68,5 @@ for i in range(0,length):
 countIn = countIn/length
 
 file1.write("findIn = "+str(countIn))
-
-#sample = [str(i) for i in sample]
-#file1.write(" ".join(sample))
-#file1.write("\n"+str(count))
 file1.close()
 
